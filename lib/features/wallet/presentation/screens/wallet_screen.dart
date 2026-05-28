@@ -271,32 +271,26 @@ class _WalletScreenState extends State<WalletScreen> with TickerProviderStateMix
             SliverToBoxAdapter(
               child:  Stack(
                 children: [
-                  GestureDetector(
-                    onTap: (){
-                      _controller.reset();
-                      _controller.forward();
-                    },
-                    child: SizedBox(
-                      width: double.infinity,
-                      child: ShaderMask(
-                        shaderCallback: (rect) {
-                          return const LinearGradient(
-                            begin: Alignment.topCenter,
-                            end: Alignment.bottomCenter,
-                            colors: [
-                              AppColor.golden1,
-                              AppColor.transparent,
-                            ],
-                            stops: [0.2, 1.0],
-                          ).createShader(rect);
-                        },
-                        blendMode: BlendMode.dstIn,
-                        child: Image.asset(
-                          'assets/images/wallet_dots_background.webp',
-                          fit: BoxFit.cover,
-                          width: double.infinity,
-                          height: 120.h,
-                        ),
+                  SizedBox(
+                    width: double.infinity,
+                    child: ShaderMask(
+                      shaderCallback: (rect) {
+                        return const LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            AppColor.golden1,
+                            AppColor.transparent,
+                          ],
+                          stops: [0.2, 1.0],
+                        ).createShader(rect);
+                      },
+                      blendMode: BlendMode.dstIn,
+                      child: Image.asset(
+                        'assets/images/wallet_dots_background.webp',
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                        height: 120.h,
                       ),
                     ),
                   ),

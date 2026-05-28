@@ -32,17 +32,6 @@ class AppTheme {
     primaryColor: AppColor.primaryColor,
     dividerColor: const Color(0xfff3f3f3),
     cardColor: AppColor.white,
-    colorScheme: const ColorScheme.light(
-      primary: AppColor.lightTextPrimary,
-      onPrimary: AppColor.gray600,
-      secondary: AppColor.gray400,
-      onSecondary: AppColor.white,
-      error: AppColor.error,
-      onError: AppColor.white,
-      surface: AppColor.white,
-      onSurface: AppColor.lightTextPrimary,
-      outline: AppColor.gray200,
-    ),
   );
 
   static ThemeData darkTheme() => ThemeData.dark().copyWith(
@@ -70,10 +59,5 @@ class AppTheme {
     ),
     cardColor: AppColor.cardColor,
     iconTheme: IconThemeData(color: AppColor.darkIconColor),
-    colorScheme: const ColorScheme.dark(
-      outline: AppColor.gray600,
-      onPrimary: AppColor.white,
-      surface: AppColor.gray500,
-    ),
   );
 }
