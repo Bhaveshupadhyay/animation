@@ -1,7 +1,7 @@
 import 'package:blinkit_money/features/wallet/presentation/screens/wallet_screen.dart';
 import 'package:go_router/go_router.dart';
 
-abstract class AppRoutes {
+class AppRoutes {
   static const wallet = '/';
 }
 
