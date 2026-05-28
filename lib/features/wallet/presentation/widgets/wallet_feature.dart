@@ -42,13 +42,12 @@ class WalletFeature extends StatelessWidget {
           ),
           Flexible(
             child: Column(
-              spacing: AppSpacing.hXxs,
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(title,
                   style: context.textTheme().titleMedium?.copyWith(
-                    fontWeight: FontWeight.w700
+                    fontWeight: FontWeight.w800
                   ),
                 ),
                 Text(description,

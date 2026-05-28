@@ -15,7 +15,7 @@ class AppColor {
   static const darkTextPrimary =  Color(0xffffffff);
   static const darkTextSecondary = Color(0xffaaaaaa);
   static const darkTextDisabled = Color(0xffaeadb4);
-  static const darkIconColor = Color(0xffdadada);
+  static const darkIconColor = Color(0xffaeb2bd);
   static const cardColor = Color(0xff292929);
 
   static const white = Color(0xffffffff);
@@ -26,12 +26,12 @@ class AppColor {
   static const gray200 = Color(0xffd6d5d5);
   static const gray300 = Color(0xffb9b9b7);
   static const gray400 = Color(0xff858481);
-  static const gray500 = Color(0xff3e3e43);
+  static const gray500 = Color(0xff39352e);
   static const gray600 = Color(0xff212029);
   static const gray700 = Color(0xff18171d);
 
-  static const golden1 = Color(0xff3a340a);
+  static const golden1 = Color(0xff32290a);
   static const brown = Color(0xff9e5e25);
   static const blue1 = Color(0xff18171d);
-  static const green = Color(0xff3a8517);
+  static const green = Color(0xff328616);
 }

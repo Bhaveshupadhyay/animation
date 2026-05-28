@@ -52,7 +52,7 @@ class ClaimGiftCard extends StatelessWidget {
             ),
           ),
 
-          Icon(Icons.arrow_forward_ios, size: 20.sp,),
+          Icon(Icons.arrow_forward_ios, size: 16.sp,),
         ],
       ),
     );
