@@ -2,6 +2,10 @@
 
 Screen Recordings: https://drive.google.com/drive/folders/1zEpZHPtvE-TjD9vAmNlpxDuKQni6gL7j?usp=sharing
 
+## Available in Light/Dark mode
+
+<img width="1080" height="1920" alt="Screenshot_1780003514" src="https://github.com/user-attachments/assets/3eeb7382-3333-4451-aa02-e1ac12236a03" />
+<img width="1080" height="1920" alt="light_theme" src="https://github.com/user-attachments/assets/9ffbfff5-7869-4d4b-9fba-7d214504286f" />
 
 
 ## Folder Structure
