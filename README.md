@@ -4,8 +4,8 @@ Screen Recordings: https://drive.google.com/drive/folders/1zEpZHPtvE-TjD9vAmNlpx
 
 ## Available in Light/Dark mode
 
-<img width="1080" height="1920" alt="Screenshot_1780003514" src="https://github.com/user-attachments/assets/3eeb7382-3333-4451-aa02-e1ac12236a03" />
-<img width="1080" height="1920" alt="light_theme" src="https://github.com/user-attachments/assets/9ffbfff5-7869-4d4b-9fba-7d214504286f" />
+<img width="1920" height="1080" alt="blinkit_clone" src="https://github.com/user-attachments/assets/340d065d-3942-4ffb-b86d-1b1865b7827e" />
+
 
 
 ## Folder Structure
