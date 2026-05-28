@@ -16,7 +16,7 @@ class ClaimGiftCard extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(vertical: AppSpacing.hSm, horizontal: AppSpacing.wSm),
       decoration: BoxDecoration(
-          color: AppColor.gray600,
+          color: context.isLight()? AppColor.white : AppColor.gray600,
           borderRadius: BorderRadius.circular(15.r)
       ),
       child: Row(

@@ -22,7 +22,7 @@ class WalletFeature extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(vertical: AppSpacing.hSm, horizontal: AppSpacing.wSm),
       decoration: BoxDecoration(
-          color: AppColor.gray500,
+          color: context.isLight()? AppColor.white3 : AppColor.gray500,
           borderRadius: BorderRadius.circular(15.r)
       ),
       child: Row(
@@ -31,7 +31,7 @@ class WalletFeature extends StatelessWidget {
           Container(
             padding: EdgeInsets.only(left: AppSpacing.wXs,right: AppSpacing.wXs, top: AppSpacing.hS),
             decoration: BoxDecoration(
-                color: AppColor.gray700,
+                color: context.isLight()? AppColor.white : AppColor.gray700,
                 borderRadius: BorderRadius.circular(20.r)
             ),
             child: Image.asset(

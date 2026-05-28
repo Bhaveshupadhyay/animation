@@ -43,6 +43,16 @@ class _WalletScreenState extends State<WalletScreen> with TickerProviderStateMix
       curve: Curves.easeOutQuint
   );
 
+  final _lightBackgroundColors=[
+    AppColor.yellow,
+    AppColor.white2,
+  ];
+
+  final _darkBackgroundColors=[
+    AppColor.golden1,
+    AppColor.blue1,
+  ];
+
   @override
   void initState() {
     super.initState();
@@ -99,23 +109,23 @@ class _WalletScreenState extends State<WalletScreen> with TickerProviderStateMix
     _textAnimation1=  TweenSequence<Offset>([
 
       TweenSequenceItem(
-        tween: ConstantTween<Offset>(const Offset(0.0, 3.5)),
+        tween: ConstantTween<Offset>(const Offset(0.0, 3.6)),
         weight: 65.0,
       ),
       TweenSequenceItem(
         tween: Tween<Offset>(
-          begin: const Offset(0.0, 3.5),
-          end: const Offset(0.0, 3.4),
+          begin: const Offset(0.0, 3.6),
+          end: const Offset(0.0, 3.5),
         ).chain(CurveTween(curve: Curves.easeOutCubic)),
         weight: 10.0,
       ),
       TweenSequenceItem(
-        tween: ConstantTween<Offset>(const Offset(0.0, 3.4)),
+        tween: ConstantTween<Offset>(const Offset(0.0, 3.5)),
         weight: 5.0,
       ),
       TweenSequenceItem(
         tween: Tween<Offset>(
-          begin: const Offset(0.0, 3.4),
+          begin: const Offset(0.0, 3.5),
           end: Offset.zero,
         ).chain(CurveTween(curve: Curves.easeOutCubic)),
         weight: 20.0,
@@ -249,10 +259,7 @@ class _WalletScreenState extends State<WalletScreen> with TickerProviderStateMix
               gradient: LinearGradient(
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
-                colors: const [
-                  AppColor.golden1,
-                  AppColor.blue1,
-                ],
+                colors: context.isLight()? _lightBackgroundColors : _darkBackgroundColors,
                 stops: [0.0,_gradientStopAnimation.value],
               ),
             ),

@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       builder: (_, _) {
         return MaterialApp.router(
           debugShowCheckedModeBanner: false,
-          title: 'Manus',
+          title: 'Bhavesh',
           theme: AppTheme.lightTheme(),
           darkTheme: AppTheme.darkTheme(),
           themeMode: ThemeMode.dark,
